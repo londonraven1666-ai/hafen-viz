@@ -115,7 +115,7 @@ setTimeout(()=>{const s=document.getElementById('splash');s.classList.add('fade'
 const $ = s => document.querySelector(s);
 const S_URL = 'SUPABASE_URL';
 const S_KEY = 'SUPABASE_KEY';
-let config = JSON.parse(localStorage.getItem('hafen-cfg') || '{}');
+let config = JSON.parse(localStorage.getItem('hafen-cfg') || '{"url":"https://qwmhlwflafxudckdaxcx.supabase.co""sb_publishable_owphxmPxIapMrKRdSoYIHA_bfF4N_7V"}');
 let memories = [], profiles = [], tab = 'memories', search = '', sortBy = 'importance', selected = null, delConfirm = false;
 
 function impBar(v) {
