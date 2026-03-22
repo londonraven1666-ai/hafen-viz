@@ -2,7 +2,7 @@
   "name": "Hafen Memory",
   "short_name": "Hafen",
   "description": "Das Licht bleibt an.",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#0a0908",
   "theme_color": "#0a0908",
