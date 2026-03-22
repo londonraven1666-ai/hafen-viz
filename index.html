@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+你!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -114,8 +114,8 @@ header{padding:18px 20px 0;background:linear-gradient(180deg,#110f0d,#0a0908);po
 setTimeout(()=>{const s=document.getElementById('splash');s.classList.add('fade');setTimeout(()=>s.style.display='none',600)},2800);
 const $ = s => document.querySelector(s);
 const S_URL = 'SUPABASE_URL';
-const S_KEY = 'SUPABASE_KEY';
-let config = JSON.parse(localStorage.getItem('hafen-cfg') || '{"url":"https://qwmhlwflafxudckdaxcx.supabase.co""sb_publishable_owphxmPxIapMrKRdSoYIHA_bfF4N_7V"}');
+const S_KEY = 'SUPABASE_KEY'
+let config = {url:"https://qwmhlwflafxudckdaxcx.supabase.co",key:"sb_publishable_owphxmPxIapMrKRdSoYIHA_bfF4N_7V"};try{const s=localStorage.getItem('hafen-cfg');if(s)config=JSON.parse(s)}catch(e){}
 let memories = [], profiles = [], tab = 'memories', search = '', sortBy = 'importance', selected = null, delConfirm = false;
 
 function impBar(v) {
